@@ -14,6 +14,7 @@ from sklearn.metrics import (
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 st.set_page_config(layout="wide", page_title="Análise ENEM (compatível com Streamlit Cloud Free)")
 st.title("📊 Análise Estatística e Modelagem — ENEM (Sem SciPy / Sem Statsmodels)")
 st.markdown("App adaptado para ambientes onde `scipy`/`statsmodels` não estão disponíveis. "
@@ -405,4 +406,5 @@ if do_class:
 
 st.markdown("---")
 st.write("Análise concluída. Observação: onde foi necessário usar funções especializadas (p-values exatas para distribuições), o app exibe estatísticas e regras práticas de interpretação para compatibilidade com ambientes sem SciPy/statsmodels.")
+
 
