@@ -405,3 +405,4 @@ if do_class:
 
 st.markdown("---")
 st.write("Análise concluída. Observação: onde foi necessário usar funções especializadas (p-values exatas para distribuições), o app exibe estatísticas e regras práticas de interpretação para compatibilidade com ambientes sem SciPy/statsmodels.")
+
